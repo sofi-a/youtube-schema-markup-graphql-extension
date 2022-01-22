@@ -1,0 +1,22 @@
+{
+  "name": "wp-graph-ql/youtube-schema-markup",
+  "description": "A WPGraphQL extension that scrapes a youtube video page and extracts the schema markup.",
+  "type": "wordpress-plugin",
+  "homepage": "https://github.com/sofi-a/youtube-schema-markup-graphql-extension",
+  "license": "GPL3",
+  "autoload": {
+    "psr-4": {
+      "WpGraphQL\\YoutubeSchemaMarkup\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Sofonias Abathun",
+      "email": "sofoniasabathun@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.4",
+    "paquettg/php-html-parser": "^3.1"
+  }
+}
